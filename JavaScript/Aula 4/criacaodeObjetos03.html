@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var curso ={
+            sigla: "TI",
+            nome: "Técnico em informática",
+        };
+
+        curso.sigla = "SI";
+        curso.nome = "Sistema de informação";
+
+        console.log(curso.sigla);
+        console.log(curso.nome);
+
+        var pessoa = {
+            nome: "Simone",
+            idade: 20,
+            cargo:"Professora"
+        };
+        console.log(pessoa);
+
+        var novaPessoa = {
+        ...pessoa,
+        anoAtual: 2020,
+        cidade: "Limeira"
+        };
+
+        console.log(novaPessoa);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
